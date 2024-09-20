@@ -4,14 +4,14 @@
 
 int main() {
 // get value
-  int celsius;
-  scanf("%d", &celsius);
+  int fahrenheit;
+  scanf("%d", &fahrenheit);
 
 // processing logic
-  double fahrenheit = ((double)celsius * (9.0f / 5.0f)) + 32.0f;
+  double celsius = ((double)fahrenheit - 32.0f) * (5.0f / 9.0f);
 
 // print result
-  printf("%.2lf", fahrenheit);
+  printf("%.2lf", celsius);
 
   return 0;
 }

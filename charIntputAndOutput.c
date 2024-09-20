@@ -13,10 +13,10 @@ int main() {
 // processing logic
   char result[7];
   result[0] = tolower(inputStr[0]);
-  result[1] = toupper(inputStr[1]);
-  result[2] = toupper(inputStr[2]);
-  result[3] = tolower(inputStr[3]);
-  result[4] = tolower(inputStr[4]);
+  result[1] = tolower(inputStr[2]);
+  result[2] = tolower(inputStr[4]);
+  result[3] = tolower(inputStr[6]);
+  result[4] = tolower(inputStr[8]);
   result[5] = '!';
   result[6] = '\0';
 
