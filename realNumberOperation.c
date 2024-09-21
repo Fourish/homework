@@ -1,6 +1,5 @@
 // 实数运算
 
-#include <endian.h>
 #include <stdio.h>
 
 int main() {
